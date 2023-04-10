@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Custom CSS */
+
+
+.custom_text{
+  margin-bottom: 20px;
+}
+
+.custom_media{
+  background-color: #fff;  
+}
+
+
+/* Custom media queries */
+
+@media(max-width: 460px){
+  
+  .custom_media{
+    width: 300px;
+    margin-top: 3rem;
+  }
+
+  .custom_text{
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .custom_label{
+    width: 250px;
+    margin-left: -5px;
+  }
+
+}
+
+
+
+@media (max-width: 1030px){
+
+  .custom_width{
+    width: 940px;
+  }
+
+}
+
+@media (max-width: 975px){
+
+  .custom_width{
+    width: 880px;
+  }
+
+}
+
+@media (max-width: 925px){
+
+  .custom_width{
+    width: 840px;
+  }
+
+}
+
+@media (max-width: 878px){
+
+  .custom_width{
+    width: 790px;
+  }
+
+}
