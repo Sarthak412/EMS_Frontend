@@ -104,3 +104,66 @@
   }
 
 }
+
+@media (max-width: 835px){
+
+  .custom_width{
+    width: 770px;
+  }
+
+}
+
+
+@media (max-width: 825px){
+
+  .custom_width{
+    width: 750px;
+  }
+
+}
+
+
+@media (max-width: 790px){
+
+  .custom_width{
+    width: 700px;
+  }
+
+}
+
+
+@media (max-width: 740px){
+
+  .custom_width{
+    width: 680px;
+  }
+
+}
+
+
+@media (max-width: 730px){
+
+  .custom_width{
+    width: 660px;
+  }
+
+}
+
+
+@media (max-width: 725px){
+
+  .custom_width{
+    width: 640px;
+  }
+
+}
+
+
+@media (max-width: 715px){
+
+  .custom_width{
+    width: 620px;
+  }
+
+}
+

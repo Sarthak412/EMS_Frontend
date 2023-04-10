@@ -37,8 +37,16 @@ const UpdateEmployee = () => {
     
   const updateEmployee = (e) => {
     e.preventDefault();  
+    EmployeeService.updateEmployee(employee, id)
+    .then((response)=>{
+      console.log(response);
+      navigate("/employeeList")
+    })
+    .catch((error)=>{
+      console.log(error);
+    })
   }
-    
+
   return (
     <div className="flex w-fit mx-auto mt-[40px] shadow-md border-b rounded custom_media">
         <div className="px-8 py-8">
@@ -89,7 +97,7 @@ const UpdateEmployee = () => {
             {/* Save Button */}
             <div className="items-center justify-center h-14 w-fit my-4 pt-5 space-x-4">
               <button onClick={updateEmployee} className="rounded text-white font-semibold bg-green-600 py-2 px-6 shadow hover:bg-green-700"> Update </button> 
-              <button on className="rounded text-white font-semibold bg-red-600 py-2 px-6 shadow hover:bg-red-800"> Cancel </button> 
+              <button onClick={() => {navigate("/employeeList")}} className="rounded text-white font-semibold bg-red-600 py-2 px-6 shadow hover:bg-red-800"> Cancel </button> 
             </div>
 
         </div>
